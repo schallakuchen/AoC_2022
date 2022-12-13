@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="initial commit&#10;Day 1 and half of Day 2">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AoC_2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D01_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D02_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="Day 2 and 3 completed">
+      <change afterPath="$PROJECT_DIR$/input/D03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D03_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +49,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670943566965</updated>
       <workItem from="1670943568876" duration="6076000" />
+      <workItem from="1670967366697" duration="103000" />
+      <workItem from="1670967746561" duration="4526000" />
     </task>
     <servers />
   </component>
@@ -77,6 +70,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit&#10;Day 1 and half of Day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;Day 1 and half of Day 2" />
+    <MESSAGE value="Day 2 and 3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 and 3 completed" />
   </component>
 </project>
