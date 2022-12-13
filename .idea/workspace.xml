@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="Day 2 and 3 completed">
-      <change afterPath="$PROJECT_DIR$/input/D03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D03_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D04_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +49,16 @@
       <updated>1670943566965</updated>
       <workItem from="1670943568876" duration="6076000" />
       <workItem from="1670967366697" duration="103000" />
-      <workItem from="1670967746561" duration="4526000" />
+      <workItem from="1670967746561" duration="7115000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2 and 3 completed">
+      <created>1670972313718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670972313718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
