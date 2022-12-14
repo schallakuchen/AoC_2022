@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="completed day 05">
+      <change afterPath="$PROJECT_DIR$/input/D06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D06_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
