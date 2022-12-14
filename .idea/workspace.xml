@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="D04 completed">
-      <change afterPath="$PROJECT_DIR$/input/D05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D05_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D05.java" afterDir="false" />
+    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="completed day 05">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,6 +49,7 @@
       <workItem from="1670943568876" duration="6076000" />
       <workItem from="1670967366697" duration="103000" />
       <workItem from="1670967746561" duration="8736000" />
+      <workItem from="1671043738292" duration="3981000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2 and 3 completed">
       <created>1670972313718</created>
@@ -86,6 +86,7 @@
     <MESSAGE value="initial commit&#10;Day 1 and half of Day 2" />
     <MESSAGE value="Day 2 and 3 completed" />
     <MESSAGE value="D04 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="D04 completed" />
+    <MESSAGE value="completed day 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed day 05" />
   </component>
 </project>
