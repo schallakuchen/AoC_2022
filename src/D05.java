@@ -16,7 +16,8 @@ public class D05 {
 
         System.out.println(startingStacks);
 
-        ArrayList<ArrayList<Character>> stack = new ArrayList<>();
+        ArrayList<ArrayList<Character>> stackPart1 = new ArrayList<>();
+        ArrayList<ArrayList<Character>> stackPart2 = new ArrayList<>();
 
         ArrayList<Character> templist1 = new ArrayList<>(Arrays.asList('Z', 'J', 'G'));
         ArrayList<Character> templist2 = new ArrayList<>(Arrays.asList('Q','L','R','P','W','F','V','C'));
@@ -28,20 +29,21 @@ public class D05 {
         ArrayList<Character> templist8 = new ArrayList<>(Arrays.asList('F','J','Z','S'));
         ArrayList<Character> templist9 = new ArrayList<>(Arrays.asList('M','C','D','P','F','H','B','T'));
 
-        stack.add(templist1);
-        stack.add(templist2);
-        stack.add(templist3);
-        stack.add(templist4);
-        stack.add(templist5);
-        stack.add(templist6);
-        stack.add(templist7);
-        stack.add(templist8);
-        stack.add(templist9);
+        stackPart1.add(templist1);
+        stackPart1.add(templist2);
+        stackPart1.add(templist3);
+        stackPart1.add(templist4);
+        stackPart1.add(templist5);
+        stackPart1.add(templist6);
+        stackPart1.add(templist7);
+        stackPart1.add(templist8);
+        stackPart1.add(templist9);
 
-        System.out.println(stack);
+        for(ArrayList<Character> e : stackPart1) {
+            stackPart2.add((ArrayList<Character>) e.clone());
+        }
 
         moves = moves.replace("move ", "").replace("from ", "").replace("to ", "");
-        //System.out.println(moves);
 
         for(String move : moves.split(System.lineSeparator())) {
             String[] actions = move.split(" ");
@@ -49,30 +51,38 @@ public class D05 {
             int from = Integer.parseInt(actions[1]) - 1;
             int to = Integer.parseInt(actions[2]) - 1;
 
+            ArrayList<Character> tempListPart1 = new ArrayList<>();
+            ArrayList<Character> tempListPart2 = new ArrayList<>();
 
-            ArrayList<Character> tempList = new ArrayList<>();
-            /* //Part 1
+            //Part 1
             for(int i = 0; i < amount; i ++) {
-                tempList.add(stack.get(from).get(stack.get(from).size() - 1));
-                stack.get(from).remove(stack.get(from).size() - 1);
-                stack.get(to).add(tempList.get(i));
+                tempListPart1.add(stackPart1.get(from).get(stackPart1.get(from).size() - 1));
+                stackPart1.get(from).remove(stackPart1.get(from).size() - 1);
+                stackPart1.get(to).add(tempListPart1.get(i));
             }
-             */
+            tempListPart1.clear();
+
             // Part 2
             for(int i = 0; i < amount; i ++) {
-                tempList.add(stack.get(from).get(stack.get(from).size() - 1));
-                stack.get(from).remove(stack.get(from).size() - 1);
+                tempListPart2.add(stackPart2.get(from).get(stackPart2.get(from).size() - 1));
+                stackPart2.get(from).remove(stackPart2.get(from).size() - 1);
             }
-            Collections.reverse(tempList);
-            for(int i = 0; i < amount; i++) stack.get(to).add(tempList.get(i));
-            tempList.clear();
+            Collections.reverse(tempListPart2);
+            for(int i = 0; i < amount; i++) stackPart2.get(to).add(tempListPart2.get(i));
+            tempListPart2.clear();
 
-            System.out.println(stack);
-            System.out.println();
         }
 
+        System.out.print("Part 1: ");
         for(int i = 0; i < 9; i++) {
-            System.out.print(stack.get(i).get(stack.get(i).size() - 1));
+            System.out.print(stackPart1.get(i).get(stackPart1.get(i).size() - 1));
         }
+        System.out.println();
+
+        System.out.print("Part 2: ");
+        for(int i = 0; i < 9; i++) {
+            System.out.print(stackPart2.get(i).get(stackPart2.get(i).size() - 1));
+        }
+        System.out.println();
     }
 }
