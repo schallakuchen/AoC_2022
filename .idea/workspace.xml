@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="completed day 05">
-      <change afterPath="$PROJECT_DIR$/input/D06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/D06_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D06.java" afterDir="false" />
+    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="D06 completed">
+      <change afterPath="$PROJECT_DIR$/input/D07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D07_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671047773485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="D06 completed">
+      <created>1671060069071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671060069071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
     <MESSAGE value="Day 2 and 3 completed" />
     <MESSAGE value="D04 completed" />
     <MESSAGE value="completed day 05" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed day 05" />
+    <MESSAGE value="D06 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="D06 completed" />
   </component>
 </project>
