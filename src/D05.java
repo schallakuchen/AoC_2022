@@ -8,6 +8,9 @@ import java.util.Collections;
 public class D05 {
     public static void main(String[] args) throws IOException {
 
+        /* Oh my f***ing god, how could I've been so stupid??
+        * Please just store the stacks as Strings and manipulate them */
+
         Path filePath = Path.of("./input/D05");
         String input = Files.readString(filePath);
 

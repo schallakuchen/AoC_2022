@@ -32,7 +32,6 @@ public class D06 {
             sofMarkerPosition ++;
             HashSet<Character> set = new HashSet<>(queue);
             if(set.size() == 14) break;
-            else set.clear();
         }
 
         System.out.println("Part 1: " + sopMarkerPosition);

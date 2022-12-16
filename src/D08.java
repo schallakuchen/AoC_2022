@@ -80,7 +80,7 @@ public class D08 {
                 }
             }
         }
-        System.out.println("Part 1: " + (sum + ((SIZE * 4) - 4)));
+        System.out.println("Part 1: " + (sum + (SIZE * 4 - 4)));
         System.out.println("Part 2: " + bestScore);
     }
 }
