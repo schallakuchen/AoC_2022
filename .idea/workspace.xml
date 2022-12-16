@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="D08 completed">
+    <list default="true" id="a2eeceba-d3d8-4b05-be89-a461188919fa" name="Changes" comment="Base of D09 built">
+      <change afterPath="$PROJECT_DIR$/input/D09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/D09_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D09.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,8 @@
       <workItem from="1670967366697" duration="103000" />
       <workItem from="1670967746561" duration="8736000" />
       <workItem from="1671043738292" duration="5583000" />
-      <workItem from="1671134850364" duration="16422000" />
+      <workItem from="1671134850364" duration="16653000" />
+      <workItem from="1671205069306" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="Day 2 and 3 completed">
       <created>1670972313718</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671152371135</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="comments">
+      <created>1671155877720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671155877720</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,8 @@
     <MESSAGE value="D07 part 1 only works with the example data.&#10;The real data gives a wrong sum" />
     <MESSAGE value="D07 completed&#10;some directories had the same name and got overwritten in the dictionary with a value of 0&#10;fixed by renaming those dirs" />
     <MESSAGE value="D08 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="D08 completed" />
+    <MESSAGE value="comments" />
+    <MESSAGE value="Base of D09 built" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base of D09 built" />
   </component>
 </project>
